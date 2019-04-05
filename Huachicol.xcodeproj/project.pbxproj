@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F2770BBB1715D93B152E4BA /* Pods_Huachicol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44094F9FED6E71AA3378FDFA /* Pods_Huachicol.framework */; };
+		C615586A22303E7F00EA3530 /* IncidentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C615586922303E7F00EA3530 /* IncidentsVC.swift */; };
+		C615586C22303EA800EA3530 /* ContacVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C615586B22303EA800EA3530 /* ContacVC.swift */; };
+		C615586E22303ED800EA3530 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C615586D22303ED800EA3530 /* RegisterVC.swift */; };
+		C6457FF3221250F00070BD73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6457FF2221250F00070BD73 /* AppDelegate.swift */; };
+		C6457FF5221250F00070BD73 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6457FF4221250F00070BD73 /* MapVC.swift */; };
+		C6457FF8221250F00070BD73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6457FF6221250F00070BD73 /* Main.storyboard */; };
+		C6457FFB221250F00070BD73 /* Huachicol.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6457FF9221250F00070BD73 /* Huachicol.xcdatamodeld */; };
+		C6457FFD221250F20070BD73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6457FFC221250F20070BD73 /* Assets.xcassets */; };
+		C6458000221250F20070BD73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6457FFE221250F20070BD73 /* LaunchScreen.storyboard */; };
+		C64580082214F32E0070BD73 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64580072214F32E0070BD73 /* NetworkManager.swift */; };
+		C645800A2214F3F30070BD73 /* WSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64580092214F3F30070BD73 /* WSConstants.swift */; };
+		C645800C2214F44B0070BD73 /* WSStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645800B2214F44B0070BD73 /* WSStructs.swift */; };
+		C645800E22161F040070BD73 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645800D22161F040070BD73 /* LoginVC.swift */; };
+		C645801122161FF30070BD73 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C645801022161FF30070BD73 /* CoreLocation.framework */; };
+		C684DF92221E380100478CDC /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C684DF91221E380100478CDC /* HomeVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44094F9FED6E71AA3378FDFA /* Pods_Huachicol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Huachicol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C615586922303E7F00EA3530 /* IncidentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentsVC.swift; sourceTree = "<group>"; };
+		C615586B22303EA800EA3530 /* ContacVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContacVC.swift; sourceTree = "<group>"; };
+		C615586D22303ED800EA3530 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		C6457FEF221250F00070BD73 /* Huachicol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huachicol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6457FF2221250F00070BD73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6457FF4221250F00070BD73 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		C6457FF7221250F00070BD73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6457FFA221250F00070BD73 /* Huachicol.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Huachicol.xcdatamodel; sourceTree = "<group>"; };
+		C6457FFC221250F20070BD73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6457FFF221250F20070BD73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6458001221250F20070BD73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C64580072214F32E0070BD73 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C64580092214F3F30070BD73 /* WSConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSConstants.swift; sourceTree = "<group>"; };
+		C645800B2214F44B0070BD73 /* WSStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSStructs.swift; sourceTree = "<group>"; };
+		C645800D22161F040070BD73 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		C645801022161FF30070BD73 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C684DF91221E380100478CDC /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		CC892670CC029F8CEE61FBCC /* Pods-Huachicol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Huachicol.release.xcconfig"; path = "Target Support Files/Pods-Huachicol/Pods-Huachicol.release.xcconfig"; sourceTree = "<group>"; };
+		F7F0EAD3CBE52E74613E9A3C /* Pods-Huachicol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Huachicol.debug.xcconfig"; path = "Target Support Files/Pods-Huachicol/Pods-Huachicol.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6457FEC221250F00070BD73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C645801122161FF30070BD73 /* CoreLocation.framework in Frameworks */,
+				8F2770BBB1715D93B152E4BA /* Pods_Huachicol.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D33046A544D0DA05C813155 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7F0EAD3CBE52E74613E9A3C /* Pods-Huachicol.debug.xcconfig */,
+				CC892670CC029F8CEE61FBCC /* Pods-Huachicol.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C615586F2230546300EA3530 /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C645800B2214F44B0070BD73 /* WSStructs.swift */,
+				C64580092214F3F30070BD73 /* WSConstants.swift */,
+				C64580072214F32E0070BD73 /* NetworkManager.swift */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		C6457FE6221250F00070BD73 = {
+			isa = PBXGroup;
+			children = (
+				C6457FF1221250F00070BD73 /* Huachicol */,
+				C6457FF0221250F00070BD73 /* Products */,
+				C645800F22161FF20070BD73 /* Frameworks */,
+				5D33046A544D0DA05C813155 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C6457FF0221250F00070BD73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6457FEF221250F00070BD73 /* Huachicol.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6457FF1221250F00070BD73 /* Huachicol */ = {
+			isa = PBXGroup;
+			children = (
+				C6457FF2221250F00070BD73 /* AppDelegate.swift */,
+				C615586F2230546300EA3530 /* Network Manager */,
+				C684DF91221E380100478CDC /* HomeVC.swift */,
+				C615586D22303ED800EA3530 /* RegisterVC.swift */,
+				C645800D22161F040070BD73 /* LoginVC.swift */,
+				C615586922303E7F00EA3530 /* IncidentsVC.swift */,
+				C6457FF4221250F00070BD73 /* MapVC.swift */,
+				C615586B22303EA800EA3530 /* ContacVC.swift */,
+				C6457FF6221250F00070BD73 /* Main.storyboard */,
+				C6457FFC221250F20070BD73 /* Assets.xcassets */,
+				C6457FFE221250F20070BD73 /* LaunchScreen.storyboard */,
+				C6458001221250F20070BD73 /* Info.plist */,
+				C6457FF9221250F00070BD73 /* Huachicol.xcdatamodeld */,
+			);
+			path = Huachicol;
+			sourceTree = "<group>";
+		};
+		C645800F22161FF20070BD73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C645801022161FF30070BD73 /* CoreLocation.framework */,
+				44094F9FED6E71AA3378FDFA /* Pods_Huachicol.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6457FEE221250F00070BD73 /* Huachicol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6458004221250F20070BD73 /* Build configuration list for PBXNativeTarget "Huachicol" */;
+			buildPhases = (
+				42A7E177C4F5D3AB8A88C24C /* [CP] Check Pods Manifest.lock */,
+				C6457FEB221250F00070BD73 /* Sources */,
+				C6457FEC221250F00070BD73 /* Frameworks */,
+				C6457FED221250F00070BD73 /* Resources */,
+				98FDA17F6B99C42828F1A7F9 /* [CP] Copy Pods Resources */,
+				F2EAF6C481552A0E6BE50559 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Huachicol;
+			productName = Huachicol;
+			productReference = C6457FEF221250F00070BD73 /* Huachicol.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6457FE7221250F00070BD73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Mauricio Rodriguez";
+				TargetAttributes = {
+					C6457FEE221250F00070BD73 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = C6457FEA221250F00070BD73 /* Build configuration list for PBXProject "Huachicol" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6457FE6221250F00070BD73;
+			productRefGroup = C6457FF0221250F00070BD73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6457FEE221250F00070BD73 /* Huachicol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6457FED221250F00070BD73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6458000221250F20070BD73 /* LaunchScreen.storyboard in Resources */,
+				C6457FFD221250F20070BD73 /* Assets.xcassets in Resources */,
+				C6457FF8221250F00070BD73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42A7E177C4F5D3AB8A88C24C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Huachicol-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98FDA17F6B99C42828F1A7F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Huachicol/Pods-Huachicol-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Huachicol/Pods-Huachicol-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2EAF6C481552A0E6BE50559 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Huachicol/Pods-Huachicol-frameworks.sh",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Huachicol/Pods-Huachicol-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6457FEB221250F00070BD73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C615586C22303EA800EA3530 /* ContacVC.swift in Sources */,
+				C645800A2214F3F30070BD73 /* WSConstants.swift in Sources */,
+				C684DF92221E380100478CDC /* HomeVC.swift in Sources */,
+				C64580082214F32E0070BD73 /* NetworkManager.swift in Sources */,
+				C615586E22303ED800EA3530 /* RegisterVC.swift in Sources */,
+				C645800E22161F040070BD73 /* LoginVC.swift in Sources */,
+				C6457FF5221250F00070BD73 /* MapVC.swift in Sources */,
+				C6457FF3221250F00070BD73 /* AppDelegate.swift in Sources */,
+				C615586A22303E7F00EA3530 /* IncidentsVC.swift in Sources */,
+				C645800C2214F44B0070BD73 /* WSStructs.swift in Sources */,
+				C6457FFB221250F00070BD73 /* Huachicol.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6457FF6221250F00070BD73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6457FF7221250F00070BD73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6457FFE221250F20070BD73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6457FFF221250F20070BD73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6458002221250F20070BD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6458003221250F20070BD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6458005221250F20070BD73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F0EAD3CBE52E74613E9A3C /* Pods-Huachicol.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NNFUU3JHZ2;
+				INFOPLIST_FILE = Huachicol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = escom.Huachicol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6458006221250F20070BD73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC892670CC029F8CEE61FBCC /* Pods-Huachicol.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NNFUU3JHZ2;
+				INFOPLIST_FILE = Huachicol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = escom.Huachicol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6457FEA221250F00070BD73 /* Build configuration list for PBXProject "Huachicol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6458002221250F20070BD73 /* Debug */,
+				C6458003221250F20070BD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6458004221250F20070BD73 /* Build configuration list for PBXNativeTarget "Huachicol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6458005221250F20070BD73 /* Debug */,
+				C6458006221250F20070BD73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C6457FF9221250F00070BD73 /* Huachicol.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C6457FFA221250F00070BD73 /* Huachicol.xcdatamodel */,
+			);
+			currentVersion = C6457FFA221250F00070BD73 /* Huachicol.xcdatamodel */;
+			path = Huachicol.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C6457FE7221250F00070BD73 /* Project object */;
+}
