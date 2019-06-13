@@ -6,7 +6,7 @@
 //  Copyright © 2019 Mauricio Rodriguez. All rights reserved.
 //
 
-import Foundation
+/*import Foundation
 
 protocol URL_SessionDelegate {
     func connectionFinishSuccessfull(session: URL_Session, response: NSDictionary) //Response del mismo tipo que devuelve el JSON o utilizar any para cachar cualquiera de los 2
@@ -187,7 +187,8 @@ class URL_Session: NSObject, URLSessionDelegate, URLSessionDataDelegate {
             delegate?.connectionFinishWithError(session: self, error: error!)
         }
     }
-    
+ 
+ 
     //Representación de bytes descargando...
     func urlSession(_ session: URLSession, dataTask: URLSessionDataTask, didReceive data: Data) {
         responseData.append(data)
@@ -214,4 +215,4 @@ class URL_Session: NSObject, URLSessionDelegate, URLSessionDataDelegate {
         completionHandler(.useCredential, URLCredential(trust: challenge.protectionSpace.serverTrust!))
     }
     
-}
+}*/

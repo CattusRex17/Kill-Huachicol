@@ -8,7 +8,9 @@ target 'Huachicol' do
   # Pods for Huachicol
 
 	pod 'GoogleMaps'
-  	pod 'GooglePlaces'
-    pod 'TwitterKit'
+  pod 'GooglePlaces'
+  pod 'TwitterKit'
+  pod 'Alamofire'
+  pod 'SwiftyJSON', '~> 4.0'
 
 end

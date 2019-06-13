@@ -7,7 +7,7 @@
 
 
 
-import Foundation
+/*import Foundation
 
 // Estructura para para hacer POST y registrarse en la aplicación
 struct UserRegisterStruct: Codable{
@@ -48,4 +48,4 @@ struct MarkerStruct: Codable {
 struct IncidentsStruct: Codable{
     
     let userId: Int
-}
+}*/

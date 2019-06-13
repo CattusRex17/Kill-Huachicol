@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in LoginVC.serviceLogin():LoginVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "JSONDecoder().decode(Usuario.self, from: decodedData)">
+            </PersistentString>
+            <PersistentString
+               value = "token">
+            </PersistentString>
+            <PersistentString
+               value = "String(data:Data(base64Encoded: &quot;ewogICJleHAiOiAxNTYwMTg5MTkwLAogICJ1c2VyX25hbWUiOiAiYW5haGlAZ21haWwuY29tIiwKICAiYXV0aG9yaXRpZXMiOiBbCiAgICAiU0VERU5BX1JPTEUiCiAgXSwKICAianRpIjogIjE2MTE0YjQ2LWIxYjctNDY1OC04MmE4LWQ5YzE4NzZjOGQwZSIsCiAgImNsaWVudF9pZCI6ICJhbmd1bGFyand0Y2xpZW50aWQiLAogICJzY29wZSI6IFsKICAgICJyZWFkIiwKICAgICJ3cml0ZSIKICBdCn0=&quot;), encoding: .utf8)!">
+            </PersistentString>
+            <PersistentString
+               value = "data">
+            </PersistentString>
+            <PersistentString
+               value = "Data(base64Encoded: &quot;ewogICJleHAiOiAxNTYwMTg5MTkwLAogICJ1c2VyX25hbWUiOiAiYW5haGlAZ21haWwuY29tIiwKICAiYXV0aG9yaXRpZXMiOiBbCiAgICAiU0VERU5BX1JPTEUiCiAgXSwKICAianRpIjogIjE2MTE0YjQ2LWIxYjctNDY1OC04MmE4LWQ5YzE4NzZjOGQwZSIsCiAgImNsaWVudF9pZCI6ICJhbmd1bGFyand0Y2xpZW50aWQiLAogICJzY29wZSI6IFsKICAgICJyZWFkIiwKICAgICJ3cml0ZSIKICBdCn0=&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "usuario">
+            </PersistentString>
+            <PersistentString
+               value = "decodedData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ContacVC.conection():ContacVC.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AgentPemexVC.circle():AgentPemexVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "circulo.map">
+            </PersistentString>
+            <PersistentString
+               value = "circ.map">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "IncidentsVC.serviceShowDenounce():IncidentsVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Singleton.getInstance().userToken">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginVC.loginButton(_:):LoginVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(userAux?.isEmpty)! || (passwordAux?.isEmpty)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in IncidentsVC.serviceShowDenounce():IncidentsVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "usuarioRespuesta.first">
+            </PersistentString>
+            <PersistentString
+               value = "usuarioRespuesta[0].titulo">
+            </PersistentString>
+            <PersistentString
+               value = "statusArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ContacVC.registerButon(_:):ContacVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "confirmPasswordTextField">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MapVC.serviceMakeDenounce():MapVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -11,6 +11,7 @@
 		C615586A22303E7F00EA3530 /* IncidentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C615586922303E7F00EA3530 /* IncidentsVC.swift */; };
 		C615586C22303EA800EA3530 /* ContacVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C615586B22303EA800EA3530 /* ContacVC.swift */; };
 		C615586E22303ED800EA3530 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C615586D22303ED800EA3530 /* RegisterVC.swift */; };
+		C6262AA1229F3C980082D9D4 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6262AA0229F3C980082D9D4 /* Singleton.swift */; };
 		C6457FF3221250F00070BD73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6457FF2221250F00070BD73 /* AppDelegate.swift */; };
 		C6457FF5221250F00070BD73 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6457FF4221250F00070BD73 /* MapVC.swift */; };
 		C6457FF8221250F00070BD73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6457FF6221250F00070BD73 /* Main.storyboard */; };
@@ -22,7 +23,15 @@
 		C645800C2214F44B0070BD73 /* WSStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645800B2214F44B0070BD73 /* WSStructs.swift */; };
 		C645800E22161F040070BD73 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645800D22161F040070BD73 /* LoginVC.swift */; };
 		C645801122161FF30070BD73 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C645801022161FF30070BD73 /* CoreLocation.framework */; };
+		C662C3EC2295F03C00C6A7BC /* IncidentesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662C3EB2295F03C00C6A7BC /* IncidentesCell.swift */; };
+		C6661D682295A5FA00F4A2EC /* RoundsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6661D672295A5FA00F4A2EC /* RoundsButton.swift */; };
+		C6661D6A2295AA7600F4A2EC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6661D692295AA7600F4A2EC /* Constants.swift */; };
+		C67D40D2225C4038003765EF /* WSConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67D40D1225C4038003765EF /* WSConfigure.swift */; };
+		C67D40D4225EBE83003765EF /* AgentSedenaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67D40D3225EBE83003765EF /* AgentSedenaVC.swift */; };
+		C67D40D6225EBEAE003765EF /* AgentPemexVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67D40D5225EBEAE003765EF /* AgentPemexVC.swift */; };
 		C684DF92221E380100478CDC /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C684DF91221E380100478CDC /* HomeVC.swift */; };
+		C6F5B44A22A754890014E740 /* MenuServiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F5B44922A754890014E740 /* MenuServiceVC.swift */; };
+		C6F5B44C22A97F980014E740 /* MenuTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F5B44B22A97F980014E740 /* MenuTabBarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +39,7 @@
 		C615586922303E7F00EA3530 /* IncidentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentsVC.swift; sourceTree = "<group>"; };
 		C615586B22303EA800EA3530 /* ContacVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContacVC.swift; sourceTree = "<group>"; };
 		C615586D22303ED800EA3530 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		C6262AA0229F3C980082D9D4 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		C6457FEF221250F00070BD73 /* Huachicol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huachicol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6457FF2221250F00070BD73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6457FF4221250F00070BD73 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -43,7 +53,15 @@
 		C645800B2214F44B0070BD73 /* WSStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSStructs.swift; sourceTree = "<group>"; };
 		C645800D22161F040070BD73 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		C645801022161FF30070BD73 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C662C3EB2295F03C00C6A7BC /* IncidentesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentesCell.swift; sourceTree = "<group>"; };
+		C6661D672295A5FA00F4A2EC /* RoundsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundsButton.swift; sourceTree = "<group>"; };
+		C6661D692295AA7600F4A2EC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C67D40D1225C4038003765EF /* WSConfigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSConfigure.swift; sourceTree = "<group>"; };
+		C67D40D3225EBE83003765EF /* AgentSedenaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentSedenaVC.swift; sourceTree = "<group>"; };
+		C67D40D5225EBEAE003765EF /* AgentPemexVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentPemexVC.swift; sourceTree = "<group>"; };
 		C684DF91221E380100478CDC /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C6F5B44922A754890014E740 /* MenuServiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuServiceVC.swift; sourceTree = "<group>"; };
+		C6F5B44B22A97F980014E740 /* MenuTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTabBarVC.swift; sourceTree = "<group>"; };
 		CC892670CC029F8CEE61FBCC /* Pods-Huachicol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Huachicol.release.xcconfig"; path = "Target Support Files/Pods-Huachicol/Pods-Huachicol.release.xcconfig"; sourceTree = "<group>"; };
 		F7F0EAD3CBE52E74613E9A3C /* Pods-Huachicol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Huachicol.debug.xcconfig"; path = "Target Support Files/Pods-Huachicol/Pods-Huachicol.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +93,7 @@
 			children = (
 				C645800B2214F44B0070BD73 /* WSStructs.swift */,
 				C64580092214F3F30070BD73 /* WSConstants.swift */,
+				C67D40D1225C4038003765EF /* WSConfigure.swift */,
 				C64580072214F32E0070BD73 /* NetworkManager.swift */,
 			);
 			path = "Network Manager";
@@ -104,11 +123,19 @@
 				C6457FF2221250F00070BD73 /* AppDelegate.swift */,
 				C615586F2230546300EA3530 /* Network Manager */,
 				C684DF91221E380100478CDC /* HomeVC.swift */,
+				C67D40D3225EBE83003765EF /* AgentSedenaVC.swift */,
 				C615586D22303ED800EA3530 /* RegisterVC.swift */,
+				C67D40D5225EBEAE003765EF /* AgentPemexVC.swift */,
 				C645800D22161F040070BD73 /* LoginVC.swift */,
 				C615586922303E7F00EA3530 /* IncidentsVC.swift */,
+				C6F5B44B22A97F980014E740 /* MenuTabBarVC.swift */,
+				C6262AA0229F3C980082D9D4 /* Singleton.swift */,
+				C662C3EB2295F03C00C6A7BC /* IncidentesCell.swift */,
 				C6457FF4221250F00070BD73 /* MapVC.swift */,
 				C615586B22303EA800EA3530 /* ContacVC.swift */,
+				C6661D672295A5FA00F4A2EC /* RoundsButton.swift */,
+				C6661D692295AA7600F4A2EC /* Constants.swift */,
+				C6F5B44922A754890014E740 /* MenuServiceVC.swift */,
 				C6457FF6221250F00070BD73 /* Main.storyboard */,
 				C6457FFC221250F20070BD73 /* Assets.xcassets */,
 				C6457FFE221250F20070BD73 /* LaunchScreen.storyboard */,
@@ -254,6 +281,8 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Huachicol/Pods-Huachicol-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
 				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
 			);
@@ -261,6 +290,8 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
 			);
@@ -277,15 +308,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				C615586C22303EA800EA3530 /* ContacVC.swift in Sources */,
+				C6262AA1229F3C980082D9D4 /* Singleton.swift in Sources */,
 				C645800A2214F3F30070BD73 /* WSConstants.swift in Sources */,
 				C684DF92221E380100478CDC /* HomeVC.swift in Sources */,
+				C662C3EC2295F03C00C6A7BC /* IncidentesCell.swift in Sources */,
 				C64580082214F32E0070BD73 /* NetworkManager.swift in Sources */,
+				C6661D682295A5FA00F4A2EC /* RoundsButton.swift in Sources */,
+				C6F5B44C22A97F980014E740 /* MenuTabBarVC.swift in Sources */,
+				C67D40D6225EBEAE003765EF /* AgentPemexVC.swift in Sources */,
+				C67D40D2225C4038003765EF /* WSConfigure.swift in Sources */,
+				C6661D6A2295AA7600F4A2EC /* Constants.swift in Sources */,
 				C615586E22303ED800EA3530 /* RegisterVC.swift in Sources */,
 				C645800E22161F040070BD73 /* LoginVC.swift in Sources */,
+				C6F5B44A22A754890014E740 /* MenuServiceVC.swift in Sources */,
 				C6457FF5221250F00070BD73 /* MapVC.swift in Sources */,
 				C6457FF3221250F00070BD73 /* AppDelegate.swift in Sources */,
 				C615586A22303E7F00EA3530 /* IncidentsVC.swift in Sources */,
 				C645800C2214F44B0070BD73 /* WSStructs.swift in Sources */,
+				C67D40D4225EBE83003765EF /* AgentSedenaVC.swift in Sources */,
 				C6457FFB221250F00070BD73 /* Huachicol.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
